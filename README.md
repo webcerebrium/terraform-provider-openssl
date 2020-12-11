@@ -1,4 +1,4 @@
-# terraform-provider-openssl-passwd
+# terraform-provider-openssl
 
 Terraform Provider to wrap `openssl passwd` command
 
@@ -8,7 +8,7 @@ Its main resource, `openssl_passwd` has password value on input and and hash on 
 
 ## Example Usage
 ```
-provider "passwd" {
+provider "openssl" {
 }
 
 resource "openssl_passwd" password {

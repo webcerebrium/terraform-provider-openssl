@@ -1,5 +1,5 @@
 FROM golang:1.15
-ARG TF_VERSION=0.14.2
+ARG TF_VERSION=0.12.29
 
 RUN set -x; apt-get update && apt-get -yf install unzip && curl -L -o terraform.zip \
     "https://releases.hashicorp.com/terraform/${TF_VERSION}/terraform_${TF_VERSION}_linux_amd64.zip" && \

@@ -1,3 +1,5 @@
+:warning: This repo is **DEPRECATED**. We recommend to use [htpasswd from Terraform Registry](https://registry.terraform.io/providers/loafoe/htpasswd) in new projects.
+
 # terraform-provider-openssl
 
 Terraform Provider to wrap `openssl passwd` command
